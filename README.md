@@ -1,6 +1,6 @@
 # DEMO-NAME
 
-Cookies Planet.
+Cookies Planet Solution.
 
 ## What is this demo?
 
