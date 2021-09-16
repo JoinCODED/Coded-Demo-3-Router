@@ -13,9 +13,12 @@ The student should learn how to turn the 3 components into pages and route and n
 ## Steps
 
 1- Installing react-router react-router-dom
+<br/>
 2- Wraping App in index.js with BrowserRouter
+<br/>
 3- Wraping each component with its Route in a Switch statement
-4- Using Link and NavLink instead of "<a href>" to link to a page
+<br/>
+4- Using Link and NavLink instead of "a href" to link to a page
 
 ## Instructor Notes
 
