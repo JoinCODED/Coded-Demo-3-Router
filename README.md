@@ -1,21 +1,24 @@
 # DEMO-NAME
 
-This is the template for demos. These repos are the starging points and instructions for short live-coding sessions where the instructor will demonstrate a specific concept.
+Cookies Planet.
 
 ## What is this demo?
 
-Explain what this demo is? Is it an incrementer? Is it a wand shop? Is it a text editor?  
+Cookies planet delivery service website with 3 components : Home,Features and About.
 
 ## What are the objectives?
 
-Why do we need this demo? What concepts are covered?
+The student should learn how to turn the 3 components into pages and route and navigate between them.
 
 ## Steps
 
-This is a **general overview** of the steps in this demo. You don't need to add details here.
+1- Installing react-router react-router-dom
+2- Wraping App in index.js with BrowserRouter
+3- Wraping each component with its Route in a Switch statement
+4- Using Link and NavLink instead of "<a href>" to link to a page
 
 ## Instructor Notes
 
 These are detailed notes written by various instructors. Feel free to use them or write your own.
 
-* [Aziz's Notes](https://github.com/JoinCODED/DEMO-Template/blob/main/aziz.md)
+- [Aziz's Notes](https://github.com/JoinCODED/DEMO-Template/blob/main/aziz.md)
