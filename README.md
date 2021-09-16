@@ -4,11 +4,11 @@ Cookies Planet.
 
 ## What is this demo?
 
-Cookies planet delivery service website with 3 components : Home,Features and About.
+Cookies planet delivery service website with 4 components : Home,Features,FeatureDetails and About.
 
 ## What are the objectives?
 
-The student should learn how to turn the 3 components into pages and route and navigate between them.
+The student should learn how to turn the 4 components into pages and route and navigate between them.
 
 ## Steps
 
