@@ -1,9 +1,8 @@
 import React from 'react';
-import featuresData from '../featuresData';
 import FeatureItem from './FeatureItem';
 
-export default function Features() {
-  const featuresList = featuresData.map((feature) => (
+export default function Features(props) {
+  const featuresList = props.features.map((feature) => (
     <FeatureItem feature={feature} />
   ));
   return (

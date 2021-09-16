@@ -9,15 +9,17 @@ import Home from './Components/Home';
 import Features from './Components/Features';
 import About from './Components/About';
 import FeatureDetails from './Components/FeatureDetails';
+import featuresData from './featuresData';
+
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Home />
       {/* code goes here */}
-      {/* <Features />
+      {/* <Features features={featuresData} />
       <About />
-      <FeatureDetails /> */}
+      <FeatureDetails features={featuresData} /> */}
     </div>
   );
 }
