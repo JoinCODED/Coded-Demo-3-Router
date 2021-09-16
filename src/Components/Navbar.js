@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -8,9 +9,9 @@ export default function Navbar() {
           <div class="row align-items-center">
             <div class="col-lg-12">
               <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="index.html">
+                <Link class="navbar-brand" to="/">
                   Cookies Plant
-                </a>
+                </Link>
                 <button
                   class="navbar-toggler"
                   type="button"
@@ -31,19 +32,19 @@ export default function Navbar() {
                 >
                   <ul id="nav" class="navbar-nav ml-auto">
                     <li class="nav-item">
-                      <a class="page-scroll" href="">
+                      <Link class="page-scroll" to="/">
                         Home
-                      </a>
+                      </Link>
                     </li>
                     <li class="nav-item">
-                      <a class="page-scroll" href="">
+                      <Link class="page-scroll" to="/features">
                         Features
-                      </a>
+                      </Link>
                     </li>
                     <li class="nav-item">
-                      <a class="page-scroll" href="">
+                      <Link class="page-scroll" to="/about">
                         About
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

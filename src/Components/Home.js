@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -14,14 +15,14 @@ export default function Home() {
                 Receive your favorite handmade cookies in our 2 days fast
                 delivery
               </p>
-              <a
-                href=""
+              <Link
+                to="/features"
                 rel="nofollow"
                 class="main-btn btn-hover wow fadeInUp"
                 data-wow-delay=".6s"
               >
                 Order Now
-              </a>
+              </Link>
             </div>
           </div>
           <div class="col-lg-6">

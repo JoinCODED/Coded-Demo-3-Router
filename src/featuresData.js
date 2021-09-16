@@ -5,6 +5,7 @@ const featuresData = [
     details: 'Giant homemade cookies made from scratch.',
     image:
       'https://carolscookies.com/wp-content/uploads/2021/01/stack-o-cookies-min.png',
+    slug: 'homemade',
   },
   {
     id: 2,
@@ -13,6 +14,7 @@ const featuresData = [
       'Looking for unique, creative cookie gifts for weddings,holidays, or simple thank-yous? We’ve got you covered.',
     image:
       'https://carolscookies.com/wp-content/uploads/2020/12/corporate-gifts.jpg',
+    slug: 'personalized-gifts',
   },
   {
     id: 3,
@@ -21,6 +23,7 @@ const featuresData = [
       'We’ve added new cookie flavors over the years, but still make them all by hand in small batches. We recommend trying every flavor to find your favorite.',
     image:
       'https://www.cookiedelivery.com/CookieDelivery/media/newimg/04%20menu%20details/04-3%20detail%20flavor%20menus/Cookies/Quickviews/quickview_cookies_tiffsmix.png?width=435&height=193&ext=.png',
+    slug: 'flavors',
   },
 ];
 

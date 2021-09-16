@@ -1,23 +1,26 @@
 import React from 'react';
-
-export default function FeatureDetails() {
+import { Redirect, useParams } from 'react-router-dom';
+export default function FeatureDetails(props) {
+  const featureSlug = useParams().featureSlug;
+  const feature = props.features.find(
+    (feature) => feature.slug === featureSlug
+  );
+  if (!feature) return <Redirect to="/feature" />;
   return (
     <div class="single-service wow fadeInUp" data-wow-delay=".4s">
       <center>
         <div class="icon">
           <img
-            src="https://carolscookies.com/wp-content/uploads/2020/12/corporate-gifts.jpg"
+            style={{ width: '400px', height: '400px' }}
+            src={feature.image}
             alt=""
           />
         </div>
       </center>
 
       <div class="content">
-        <h3>Personalized gifts</h3>
-        <p>
-          Looking for unique, creative cookie gifts for weddings, holidays, or
-          simple thank-yous? We’ve got you covered.
-        </p>
+        <h3>{feature.name}</h3>
+        <p>{feature.details}</p>
       </div>
     </div>
   );
