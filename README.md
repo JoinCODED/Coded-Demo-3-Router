@@ -16,7 +16,7 @@ The student should learn how to turn the 4 components into pages and route and n
 <br/>
 2- Wraping App in index.js with BrowserRouter
 <br/>
-3- Wraping each component with its Route in a Switch statement
+3- In App .js Wrap each component with its Route and all components a Switch
 <br/>
 4- Using Link instead of "a href" to link to a page in the Navbar
 <br/>
