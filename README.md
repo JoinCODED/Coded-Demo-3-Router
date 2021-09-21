@@ -12,7 +12,7 @@ The student should learn how to turn the 4 components into pages and route and n
 
 ## Steps
 
-1- Installing react-router react-router-dom
+1- Installing react-router react-router-dom `yarn add react-router react-router-dom`
 <br/>
 2- Wraping App in index.js with BrowserRouter
 <br/>
