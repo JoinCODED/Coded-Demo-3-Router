@@ -21,12 +21,8 @@ The student should learn how to turn the 4 components into pages and route and n
 7. go to feature item add a link 
 8. in app.js add 'feature/:id"
 9. in featureItem.js change path to `${features/${feature.id}`
-
-5- Add a Router param to featureDetails route
-<br/>
-6- Pass th id as a param from featureItem component
-<br/>
-7- Add a slug to the features dummy data and switch id routing to slug routing
+10. in detail component ` const feature = useParams().featureId;`
+11. switch to slugs
 
 ## Instructor Notes
 
