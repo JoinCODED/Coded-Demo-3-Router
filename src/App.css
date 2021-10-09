@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+.header{
+  display: flex;
+  justify-content: flex-end;
+  height: 60px;
+  background-color: #E8505B;
+}
+
+.header a{
+  padding:15px;
+  color:white;
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.header a:hover{
+  background-color: white;
+}
