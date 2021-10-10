@@ -19,7 +19,7 @@ The student should learn how to turn the 4 components into pages and route and n
 5. add exact to each path 
 6. rule of thumb longest paths first
 7. create a nav bar
-8. go to navbar add links to "/" and "/featuers" link
+8. go to navbar add links to "/" and "/featuers" link `import { Link } from "react-router-dom";`
 
 ## part 2:
 9. go to feature item add a link 
