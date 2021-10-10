@@ -22,10 +22,10 @@ The student should learn how to turn the 4 components into pages and route and n
 8. go to navbar add links to "/" and "/featuers" link `import { Link } from "react-router-dom";`
 
 ## part 2:
-9. go to feature item add a link 
-10. in app.js add a route for details 'feature/:id"
+9. go to feature item add a link above center to="/features/homemade"
+10. in app.js add a route for details `feature/homemade`, then to `featurs/:featureId`
 11. in featureItem.js change path to `${features/${feature.id}`
-12. in detail component ` const feature = useParams().featureId;`
+12. in detail component ` const feature = useParams().featureId;` `props.cookies.find((cookie) => cookie.id === cookieId);`
 13. switch to slugs
 
 ## Instructor Notes
