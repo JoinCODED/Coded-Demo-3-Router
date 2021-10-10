@@ -18,12 +18,14 @@ The student should learn how to turn the 4 components into pages and route and n
 4. wrap all routes in Switch
 5. add exact to each path
 6. create a nav bar
-7. go to navbar replace a with link "/fetures/1"
-8. go to feature item add a link 
-9. in app.js add 'feature/:id"
-10. in featureItem.js change path to `${features/${feature.id}`
-11. in detail component ` const feature = useParams().featureId;`
-12. switch to slugs
+7. go to navbar add links to "/" and "/featuers" link
+
+## part 2:
+9. go to feature item add a link 
+10. in app.js add a route for details 'feature/:id"
+11. in featureItem.js change path to `${features/${feature.id}`
+12. in detail component ` const feature = useParams().featureId;`
+13. switch to slugs
 
 ## Instructor Notes
 
