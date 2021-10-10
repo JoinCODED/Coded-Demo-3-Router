@@ -25,8 +25,11 @@ The student should learn how to turn the 4 components into pages and route and n
 9. go to feature item add a link above center to="/features/homemade"
 10. in app.js add a route for details `feature/homemade`, then to `featurs/:featureId`
 11. in featureItem.js change path to `${features/${feature.id}`
-12. in detail component ` const feature = useParams().featureId;` `props.cookies.find((cookie) => cookie.id === cookieId);`
-13. switch to slugs
+12. `import { Redirect, useParams } from 'react-router-dom';`
+13. in detail component ` const featureId = useParams().featureId;` 
+14. find feature ` const feature = props.features.find( (feature) => feature.id === featureId);`
+15. redirect to home if not found
+16. switch to slugs
 
 ## Instructor Notes
 
