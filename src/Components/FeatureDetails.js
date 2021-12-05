@@ -1,11 +1,11 @@
 import React from 'react';
-import { Redirect, useParams } from 'react-router-dom';
+import { Navigate, useParams } from 'react-router-dom';
 export default function FeatureDetails(props) {
   const featureSlug = useParams().featureSlug;
   const feature = props.features.find(
     (feature) => feature.slug === featureSlug
   );
-  if (!feature) return <Redirect to="/feature" />;
+  if (!feature) return <Navigate to="/feature" />;
   return (
     <div class="single-service wow fadeInUp" data-wow-delay=".4s">
       <center>
