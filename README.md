@@ -10,9 +10,9 @@ The student should learn how to turn the 4 components into pages and route and n
 
 ## Steps
 
-1. Installing react-router react-router-dom `npm install react-router react-router-dom`
+1. Installing react-router react-router-dom `npm install react-router-dom`
 2. in index.js wrap App with BrowserRouter `import { BrowserRouter } from "react-router-dom";`
-3. In App .js Wrap each component with Route and add its path >> test not working `import { Route } from "react-router";`
+3. In App .js Wrap each component with Route and add its path >> test not working `import { Route } from "react-router-dom";`
 4. `import { Route, Routes } from "react-router";` in `App.js`
 5. wrap all routes in `<Routes>`
 6. add exact to each path
