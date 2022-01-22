@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -36,20 +36,30 @@
     transform: rotate(360deg);
   }
 }
-.header{
+.header {
   display: flex;
   justify-content: flex-end;
   height: 60px;
-  background-color: #E8505B;
+  background-color: #e8505b;
 }
 
-.header a{
-  padding:15px;
-  color:white;
- font-size: 20px;
- font-weight: bold;
+.header a {
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.header a:hover{
+.header a:hover {
   background-color: white;
+}
+
+.feature {
+  transition: 200ms;
+}
+.feature:hover {
+  transform: scale(1.05);
+}
+.feature:active {
+  transform: scale(1.1);
 }

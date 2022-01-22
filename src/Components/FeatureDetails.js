@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 
 export default function FeatureDetails() {
   return (
-    <div class="single-service wow fadeInUp" data-wow-delay=".4s">
+    <div class="single-service wow fadeInUp text-center" data-wow-delay=".4s">
       <center>
         <div class="icon">
           <img
             src="https://carolscookies.com/wp-content/uploads/2020/12/corporate-gifts.jpg"
             alt=""
-            style={{ height: '400px', width: '400px' }}
+            style={{ height: "400px", width: "400px" }}
           />
         </div>
       </center>

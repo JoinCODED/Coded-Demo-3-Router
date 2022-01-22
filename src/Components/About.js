@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export default function About() {
   return (
@@ -57,7 +57,7 @@ export default function About() {
                     cup-end="234"
                     cup-append="K+"
                   >
-                    434{' '}
+                    434{" "}
                   </h3>
                   <h5>Happy User</h5>
                 </div>
