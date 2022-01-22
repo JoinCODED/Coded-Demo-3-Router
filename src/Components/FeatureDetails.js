@@ -1,24 +1,28 @@
-import React from 'react';
-
+import React from "react";
+import featuresData from "../featuresData";
+import { useParams, Navigate } from "react-router-dom";
 export default function FeatureDetails() {
+  const { featureSlug } = useParams();
+  const feature = featuresData.find((f) => f.slug === featureSlug);
+
+  if (!feature) {
+    return <Navigate to="/" />;
+  }
   return (
-    <div class="single-service wow fadeInUp" data-wow-delay=".4s">
+    <div className="single-service wow fadeInUp" data-wow-delay=".4s">
       <center>
-        <div class="icon">
+        <div className="icon">
           <img
-            src="https://carolscookies.com/wp-content/uploads/2020/12/corporate-gifts.jpg"
+            src={feature.image}
             alt=""
-            style={{ height: '400px', width: '400px' }}
+            style={{ height: "400px", width: "400px" }}
           />
         </div>
       </center>
 
-      <div class="content">
-        <h3>Personalized gifts</h3>
-        <p>
-          Looking for unique, creative cookie gifts for weddings, holidays, or
-          simple thank-yous? We’ve got you covered.
-        </p>
+      <div className="content">
+        <h3>{feature.name}</h3>
+        <p>{feature.details}</p>
       </div>
     </div>
   );
