@@ -15,7 +15,7 @@ export default function Home() {
                 delivery
               </p>
               <a
-                href=""
+                href="#i"
                 rel="nofollow"
                 class="main-btn btn-hover wow fadeInUp"
                 data-wow-delay=".6s"

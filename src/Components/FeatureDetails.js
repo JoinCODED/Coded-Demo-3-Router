@@ -8,7 +8,7 @@ export default function FeatureDetails() {
           <img
             src="https://carolscookies.com/wp-content/uploads/2020/12/corporate-gifts.jpg"
             alt=""
-            style={{ height: "400px", width: "400px" }}
+            style={{ width: "400px" }}
           />
         </div>
       </center>
